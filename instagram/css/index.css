@@ -1,0 +1,108 @@
+     
+        .body{
+            background-color: #dbd9db;
+            margin: auto;
+        }
+        .general-container{
+            position: relative;
+            width: 390px; 
+            height: 744px;
+            background-image: linear-gradient(to bottom right, #b21e89, #D03257);
+        }
+        .icon-header{
+            background-color: #0c0b0c;
+            width: 390px;
+            padding: 5px 0 2px 0;
+            
+        }
+        .icons{
+            color: #ece5ec;
+            text-align: end;
+            vertical-align: text-bottom;
+        }
+        i{
+            color: #ece5ec;
+            font-size: 25px;
+            vertical-align: middle;
+        }
+        .name-brand{
+            font-family: 'Lobster Two', cursive;
+            text-align: center;
+            margin-top: 100px;
+            color: #ece5ec;
+        }
+        .form-control{
+            padding-top: 20px;
+            margin-top: 20px;
+            background-image: linear-gradient(to right, #BF4089, #CD3277);
+            border: none
+        }
+        .form-control::placeholder{
+            color: #EAC1D9;
+            vertical-align: middle;
+        }
+        input:first-of-type{
+            margin-top: 50px;
+        }
+        .btn{
+            padding-top:20px;
+            margin-top: 20px;
+            width: 100%;
+            color: #CF5589;
+            background-image: linear-gradient(to right, #B83479, #CA2461);
+            border: 1px solid #C1518E;
+            vertical-align: middle;
+        }
+        .btn:hover{
+            color: #CF5589;
+        }
+        .btn:clicked{
+            border: 1px solid #C1518E;
+        }
+        .white{
+            color: #EAC3D6;
+        }
+        .small-size{
+            font-size: 12px;
+        }
+        .text{
+            margin-top: 20px;
+        }
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* To show the lines on right 
+           and left sides of the text */
+        .divider::after,
+        .divider::before {
+            content: "";
+            border: 0.05rem solid #C1518E;
+            flex: 1;
+        }
+
+        /* Space on left and right sides of text */
+        .divider:not(:empty)::before {
+            margin-right: 0.25em;
+        }
+
+        .divider:not(:empty)::after {
+           margin-left: 0.25em;
+        }
+
+        .facebook{
+            margin-top: 30px; 
+        }
+
+        .footer{
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+            padding: 20px 0 20px 0;
+            background-image: linear-gradient(to right, #BF4089, #CD3277);
+            border-top: 0.05rem solid #C1518E;
+            margin-left: -12px;
+        }
